@@ -7,3 +7,6 @@ export const firebaseConfig = {
   "messagingSenderId": "128540302732",
   "appId": "1:128540302732:web:6bd2d58c2eaae98fa68aa9"
 };
+
+// البريد مخصص لحساب دخول المنصة، وليس كلمة مرور البريد.
+export const teacherEmail = 'laylaluvvu@gmail.com';

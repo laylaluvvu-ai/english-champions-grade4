@@ -1,7 +1,7 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js';
 import {getAuth,setPersistence,browserLocalPersistence,createUserWithEmailAndPassword,signInWithEmailAndPassword,signOut} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js';
 import {getFirestore,doc,getDoc,setDoc,updateDoc,collection,getDocs,query,orderBy,limit,where,getCountFromServer,runTransaction,serverTimestamp,writeBatch} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
-import {firebaseConfig} from './firebase-config.js';
+import {firebaseConfig,teacherEmail} from './firebase-config.js';
 import {playerState,boardRow} from './model.js';
 let auth,db,bank,ready;
 export async function connect(){
@@ -43,7 +43,7 @@ export async function api(path,body){try{await connect();const route=path.split(
   return {player:await state(await settle())};
  }
  if(route==='logout'||route==='admin/logout'){await signOut(auth);return {ok:true};}
- if(route==='admin/login'){await signInWithEmailAndPassword(auth,String(body.email).trim(),body.password);if(!await isTeacher()){await signOut(auth);throw Error('هذا الحساب غير مخوّل كمعلمة.');}return {ok:true};}
+ if(route==='admin/login'){await signInWithEmailAndPassword(auth,teacherEmail,body.password);if(!await isTeacher()){await signOut(auth);throw Error('هذا الحساب غير مخوّل كمعلمة.');}return {ok:true};}
  if(route==='answer'){
   const ref=doc(db,'players',current());let snapshot;
   await runTransaction(db,async tx=>{snapshot=(await tx.get(ref)).data();if(!snapshot)throw Error('سجّلي أولًا.');if(body.index!==snapshot.answers.length||snapshot.pending!==-1)throw Error('الإجابة محفوظة أو الصفحة تحتاج تحديثًا.');if(!Number.isInteger(body.choice)||body.choice<0||body.choice>3)throw Error('اختيار غير صالح.');tx.update(ref,{pending:body.choice,updated:serverTimestamp()});});
