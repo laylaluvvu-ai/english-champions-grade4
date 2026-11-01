@@ -1,0 +1,390 @@
+{
+  "curriculum": {
+    "id": "top-goal-1-t1-1448",
+    "label": "رابع ابتدائي · الفصل الأول · Top Goal 1",
+    "book": "Top Goal 1",
+    "term": 1,
+    "grade": 4,
+    "edition": "1448 / 2026",
+    "units": [
+      "Family Events",
+      "Chores",
+      "Stories",
+      "After-School Fun"
+    ]
+  },
+  "questions": [
+    [
+      {
+        "q": "C O U _ I N",
+        "h": "Complete the word: your aunt’s child.",
+        "o": [
+          "C",
+          "Z",
+          "S",
+          "T"
+        ],
+        "unit": "Family Events",
+        "page": 11
+      },
+      {
+        "q": "D A U _ H T E R",
+        "h": "Complete the word: a parent’s girl.",
+        "o": [
+          "J",
+          "G",
+          "K",
+          "C"
+        ],
+        "unit": "Family Events",
+        "page": 11
+      },
+      {
+        "q": "D _ E S S E D",
+        "h": "Complete the phrase: get ___ before school.",
+        "o": [
+          "R",
+          "L",
+          "S",
+          "T"
+        ],
+        "unit": "Chores",
+        "page": 23
+      },
+      {
+        "q": "D R _ A M",
+        "h": "Complete the word: a story in your mind while you sleep.",
+        "o": [
+          "A",
+          "I",
+          "O",
+          "E"
+        ],
+        "unit": "Stories",
+        "page": 35
+      },
+      {
+        "q": "P H _ T O S",
+        "h": "Complete the phrase: take ___ with a camera.",
+        "o": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "unit": "After-School Fun",
+        "page": 47
+      }
+    ],
+    [
+      {
+        "q": "He always walk to school.",
+        "h": "Replace the incorrect verb.",
+        "o": [
+          "walking",
+          "walks",
+          "walked",
+          "walk"
+        ],
+        "unit": "Family Events",
+        "page": 12
+      },
+      {
+        "q": "Whose bag is this? It is my.",
+        "h": "Replace the incorrect word.",
+        "o": [
+          "me",
+          "my",
+          "mine",
+          "I"
+        ],
+        "unit": "Family Events",
+        "page": 17
+      },
+      {
+        "q": "They is washing the dishes now.",
+        "h": "Replace the incorrect verb.",
+        "o": [
+          "am",
+          "was",
+          "is",
+          "are"
+        ],
+        "unit": "Chores",
+        "page": 24
+      },
+      {
+        "q": "She did not played yesterday.",
+        "h": "Choose the correct verb after did not.",
+        "o": [
+          "play",
+          "plays",
+          "playing",
+          "played"
+        ],
+        "unit": "Stories",
+        "page": 36
+      },
+      {
+        "q": "Did you went shopping?",
+        "h": "Choose the correct verb after did.",
+        "o": [
+          "goes",
+          "going",
+          "go",
+          "went"
+        ],
+        "unit": "After-School Fun",
+        "page": 48
+      }
+    ],
+    [
+      {
+        "q": "Who is your mother’s sister?",
+        "h": "Choose the family member.",
+        "o": [
+          "cousin",
+          "aunt",
+          "daughter",
+          "grandson"
+        ],
+        "unit": "Family Events",
+        "page": 11
+      },
+      {
+        "q": "Which chore uses a broom?",
+        "h": "Choose the chore.",
+        "o": [
+          "make the bed",
+          "feed the animals",
+          "sweep the floor",
+          "wash the dishes"
+        ],
+        "unit": "Chores",
+        "page": 28
+      },
+      {
+        "q": "Which word means speak very loudly?",
+        "h": "Choose the action.",
+        "o": [
+          "wait",
+          "carry",
+          "dream",
+          "shout"
+        ],
+        "unit": "Stories",
+        "page": 35
+      },
+      {
+        "q": "What does get dressed mean?",
+        "h": "Choose the correct meaning.",
+        "o": [
+          "Put on your clothes",
+          "Read a comic book",
+          "Clear the table",
+          "Catch the bus"
+        ],
+        "unit": "Chores",
+        "page": 23
+      },
+      {
+        "q": "Which activity uses a board and game pieces?",
+        "h": "Choose the activity.",
+        "o": [
+          "take photos",
+          "go shopping",
+          "play board games",
+          "dress up"
+        ],
+        "unit": "After-School Fun",
+        "page": 47
+      }
+    ],
+    [
+      {
+        "q": "usually / I / make / my bed",
+        "h": "Choose the correct sentence.",
+        "o": [
+          "I usually make my bed.",
+          "I make usually bed my.",
+          "Usually my bed I make my.",
+          "My bed make I usually."
+        ],
+        "unit": "Chores",
+        "page": 24
+      },
+      {
+        "q": "help / Can / me / you / ?",
+        "h": "Choose the correct question.",
+        "o": [
+          "Can help you me?",
+          "You help can me?",
+          "Can you help me?",
+          "Help can me you?"
+        ],
+        "unit": "Chores",
+        "page": 29
+      },
+      {
+        "q": "play / Did / yesterday / you / ?",
+        "h": "Choose the correct question.",
+        "o": [
+          "Did play you yesterday?",
+          "Did you play yesterday?",
+          "You did yesterday play?",
+          "Yesterday play did you?"
+        ],
+        "unit": "Stories",
+        "page": 41
+      },
+      {
+        "q": "the ball / caught / She / yesterday",
+        "h": "Choose the correct sentence.",
+        "o": [
+          "She ball the caught yesterday.",
+          "Caught she yesterday the ball.",
+          "Yesterday the caught she ball.",
+          "She caught the ball yesterday."
+        ],
+        "unit": "After-School Fun",
+        "page": 48
+      },
+      {
+        "q": "I / went shopping / because / needed a bag / I",
+        "h": "Choose the correct sentence.",
+        "o": [
+          "I went shopping because I needed a bag.",
+          "Because went shopping I needed a bag I.",
+          "I needed because a bag I went shopping.",
+          "I shopping went I because needed a bag."
+        ],
+        "unit": "After-School Fun",
+        "page": 53
+      }
+    ],
+    [
+      {
+        "q": "stop → ___",
+        "h": "Choose the correct past form.",
+        "o": [
+          "stoped",
+          "stopped",
+          "stop",
+          "stopping"
+        ],
+        "unit": "Stories",
+        "page": 43
+      },
+      {
+        "q": "plan → ___",
+        "h": "Choose the correct past form.",
+        "o": [
+          "planed",
+          "planning",
+          "planned",
+          "plan"
+        ],
+        "unit": "Stories",
+        "page": 43
+      },
+      {
+        "q": "quiet → ___",
+        "h": "Choose the adverb.",
+        "o": [
+          "quiet",
+          "quieter",
+          "quietest",
+          "quietly"
+        ],
+        "unit": "After-School Fun",
+        "page": 55
+      },
+      {
+        "q": "happy → ___",
+        "h": "Choose the adverb.",
+        "o": [
+          "happily",
+          "happyly",
+          "happiness",
+          "happier"
+        ],
+        "unit": "After-School Fun",
+        "page": 55
+      },
+      {
+        "q": "quick → ___",
+        "h": "Choose the adverb.",
+        "o": [
+          "quickest",
+          "quick",
+          "quicker",
+          "quickly"
+        ],
+        "unit": "After-School Fun",
+        "page": 55
+      }
+    ],
+    [
+      {
+        "q": "Sara is helpful. She helps her mother make the bed.",
+        "h": "What does helpful mean?",
+        "o": [
+          "Ready to help",
+          "Very sleepy",
+          "Very loud",
+          "Always late"
+        ],
+        "unit": "Family Events",
+        "page": 16
+      },
+      {
+        "q": "Ali is tired after playing all day. He wants to sleep.",
+        "h": "What does tired mean?",
+        "o": [
+          "Very strong",
+          "Needing rest",
+          "Very hungry",
+          "Ready to shout"
+        ],
+        "unit": "Family Events",
+        "page": 16
+      },
+      {
+        "q": "The boy is strong. He can carry the heavy bag.",
+        "h": "What does strong mean here?",
+        "o": [
+          "Speaking quietly",
+          "Wanting to sleep",
+          "Having power to lift or carry things",
+          "Moving very slowly"
+        ],
+        "unit": "Family Events",
+        "page": 16
+      },
+      {
+        "q": "Lina ran quickly and reached the bus in time.",
+        "h": "What does quickly mean?",
+        "o": [
+          "Quietly",
+          "Carefully",
+          "Slowly",
+          "Fast"
+        ],
+        "unit": "After-School Fun",
+        "page": 55
+      },
+      {
+        "q": "The baby is sleeping, so we talk quietly.",
+        "h": "What does quietly mean?",
+        "o": [
+          "With little noise",
+          "Very fast",
+          "With anger",
+          "Very loudly"
+        ],
+        "unit": "After-School Fun",
+        "page": 55
+      }
+    ]
+  ]
+}
